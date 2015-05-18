@@ -49,7 +49,6 @@ public class ServerSocketThread extends Thread implements SocketThread{
 				try {
 					line = in.readLine();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				if(line.contains("@msg:")){
@@ -130,6 +129,4 @@ public class ServerSocketThread extends Thread implements SocketThread{
 		out.println("@win");
 		serverController.getGameController().endOfGame("lost");
 	}
-	
-	
 }

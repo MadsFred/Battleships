@@ -10,7 +10,7 @@ import data.Ship;
 import data.ShipType;
 
 /*
- * Vi skal måske have to klasser der begge extender GridPanel - en til modstanderen og en til spilleren?
+ * Vi skal mï¿½ske have to klasser der begge extender GridPanel - en til modstanderen og en til spilleren?
  * */
 public class GridPanel extends JPanel {
 	private CellPanel[][] grid = new CellPanel[10][10];
